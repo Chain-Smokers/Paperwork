@@ -1,0 +1,107 @@
+\contentsline {section}{\numberline {1}Synopsis}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Project Title}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Project Option}{2}{}%
+\contentsline {subsection}{\numberline {1.3}Internal Guide}{2}{}%
+\contentsline {subsection}{\numberline {1.4}Sponsorship and External Guide}{2}{}%
+\contentsline {subsection}{\numberline {1.5}Technical Keywords}{2}{}%
+\contentsline {subsection}{\numberline {1.6}Problem Statement}{2}{}%
+\contentsline {subsection}{\numberline {1.7}Abstract}{2}{}%
+\contentsline {subsection}{\numberline {1.8}Goals and Objectives}{3}{}%
+\contentsline {subsection}{\numberline {1.9}Plan of Project Execution}{3}{}%
+\contentsline {section}{\numberline {2}Technical Keywords}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Area of Project}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Technical Keywords}{5}{}%
+\contentsline {section}{\numberline {3}Introduction}{6}{}%
+\contentsline {subsection}{\numberline {3.1}Overview}{7}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Motivation}{7}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}Objective}{7}{}%
+\contentsline {section}{\numberline {4}Literature Survey}{8}{}%
+\contentsline {subsection}{\numberline {4.1}Study of Research Paper}{9}{}%
+\contentsline {section}{\numberline {5}Problem Statement and Scope}{11}{}%
+\contentsline {subsection}{\numberline {5.1}Problem Statement}{12}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}Goals and Objectives}{12}{}%
+\contentsline {subsection}{\numberline {5.2}Scope}{12}{}%
+\contentsline {subsection}{\numberline {5.3}Major Constraints}{12}{}%
+\contentsline {subsection}{\numberline {5.4}Methodologies of Problem Solving and Efficiency Issues}{12}{}%
+\contentsline {subsection}{\numberline {5.5}Expected Outcome}{12}{}%
+\contentsline {subsection}{\numberline {5.6}Applications}{12}{}%
+\contentsline {section}{\numberline {6}Project Plan}{13}{}%
+\contentsline {subsection}{\numberline {6.1}Project Estimates}{14}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}Sequential Phases in Waterfall Model}{14}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}Project Resources}{14}{}%
+\contentsline {subsection}{\numberline {6.2}Risk Management}{14}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Risk Identification}{14}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}Risk Analysis}{14}{}%
+\contentsline {subsubsection}{\numberline {6.2.3}Overview of Risk Mitigation, Monitoring, Management}{14}{}%
+\contentsline {subsection}{\numberline {6.3}Project Schedule}{14}{}%
+\contentsline {subsubsection}{\numberline {6.3.1}Project Task Set}{14}{}%
+\contentsline {subsubsection}{\numberline {6.3.2}Task Network}{14}{}%
+\contentsline {subsubsection}{\numberline {6.3.3}Timeline Chart}{14}{}%
+\contentsline {subsection}{\numberline {6.4}Team Organization}{14}{}%
+\contentsline {subsubsection}{\numberline {6.4.1}Team Structure}{14}{}%
+\contentsline {subsubsection}{\numberline {6.4.2}Management reporting and communication}{14}{}%
+\contentsline {section}{\numberline {7}Software Requirement Specification}{15}{}%
+\contentsline {subsection}{\numberline {7.1}Introduction}{16}{}%
+\contentsline {subsubsection}{\numberline {7.1.1}Purpose and Scope of Document}{16}{}%
+\contentsline {subsubsection}{\numberline {7.1.2}Overview of responsibilites of Developer}{16}{}%
+\contentsline {subsection}{\numberline {7.2}System Requirements}{16}{}%
+\contentsline {subsubsection}{\numberline {7.2.1}System Interface}{16}{}%
+\contentsline {subsection}{\numberline {7.3}Usage Scenarios}{16}{}%
+\contentsline {subsubsection}{\numberline {7.3.1}User profiles}{16}{}%
+\contentsline {subsubsection}{\numberline {7.3.2}Use Case View}{16}{}%
+\contentsline {subsection}{\numberline {7.4}Data Model and Description}{16}{}%
+\contentsline {subsubsection}{\numberline {7.4.1}Data Description}{16}{}%
+\contentsline {subsubsection}{\numberline {7.4.2}Data Objects and Relationships}{16}{}%
+\contentsline {subsection}{\numberline {7.5}Functional Model and Description}{16}{}%
+\contentsline {subsubsection}{\numberline {7.5.1}Data Flow Diagram}{16}{}%
+\contentsline {subsubsection}{\numberline {7.5.2}Activity Diagram}{16}{}%
+\contentsline {subsubsection}{\numberline {7.5.3}Non-Functional Requirements}{16}{}%
+\contentsline {subsubsection}{\numberline {7.5.4}Design Constraints}{16}{}%
+\contentsline {subsubsection}{\numberline {7.5.5}Software Interface Description}{16}{}%
+\contentsline {section}{\numberline {8}Detailed Design Document using Annexure A and B}{17}{}%
+\contentsline {subsection}{\numberline {8.1}Introduction}{18}{}%
+\contentsline {subsection}{\numberline {8.2}Architectural Design}{18}{}%
+\contentsline {subsection}{\numberline {8.3}Data Design (Using Annexure A and B)}{18}{}%
+\contentsline {subsubsection}{\numberline {8.3.1}Internal Software Data Structure}{18}{}%
+\contentsline {subsubsection}{\numberline {8.3.2}Global Data Structure}{18}{}%
+\contentsline {subsubsection}{\numberline {8.3.3}Temporary Data Structures}{18}{}%
+\contentsline {subsubsection}{\numberline {8.3.4}Database Description}{18}{}%
+\contentsline {subsection}{\numberline {8.4}Component Design}{18}{}%
+\contentsline {subsubsection}{\numberline {8.4.1}Class Diagram}{18}{}%
+\contentsline {subsubsection}{\numberline {8.4.2}Sequence Diagram}{18}{}%
+\contentsline {section}{\numberline {9}Project Implementation}{19}{}%
+\contentsline {subsection}{\numberline {9.1}Introduction}{20}{}%
+\contentsline {subsection}{\numberline {9.2}Module Description}{20}{}%
+\contentsline {subsection}{\numberline {9.3}Tools and Technologies Used}{20}{}%
+\contentsline {subsection}{\numberline {9.4}Methodologies/Algorithm Details}{20}{}%
+\contentsline {subsection}{\numberline {9.5}Verification and Validation}{20}{}%
+\contentsline {section}{\numberline {10}Software Testing}{21}{}%
+\contentsline {subsection}{\numberline {10.1}Test Plan}{22}{}%
+\contentsline {subsection}{\numberline {10.2}Test Cases and Test Result}{22}{}%
+\contentsline {subsubsection}{\numberline {10.2.1}Smoke Testing}{22}{}%
+\contentsline {subsubsection}{\numberline {10.2.2}Sanity Testing}{22}{}%
+\contentsline {subsubsection}{\numberline {10.2.3}Unit Testing}{22}{}%
+\contentsline {subsubsection}{\numberline {10.2.4}Integration Testing}{22}{}%
+\contentsline {subsubsection}{\numberline {10.2.5}Regression Testing}{22}{}%
+\contentsline {subsubsection}{\numberline {10.2.6}Validation Testing}{22}{}%
+\contentsline {subsubsection}{\numberline {10.2.7}System Testing}{22}{}%
+\contentsline {subsubsection}{\numberline {10.2.8}Output Testing}{22}{}%
+\contentsline {subsubsection}{\numberline {10.2.9}Performance Testing}{22}{}%
+\contentsline {subsubsection}{\numberline {10.2.10}GUI Testing}{22}{}%
+\contentsline {section}{\numberline {11}Screenshots}{23}{}%
+\contentsline {section}{\numberline {12}Deployment and Maintenance}{24}{}%
+\contentsline {subsection}{\numberline {12.1}Deployment}{25}{}%
+\contentsline {subsection}{\numberline {12.2}Maintenance}{25}{}%
+\contentsline {section}{\numberline {13}Conclusion and Future Scope}{26}{}%
+\contentsline {subsection}{\numberline {13.1}Conclusion}{27}{}%
+\contentsline {subsection}{\numberline {13.2}Future Scope}{27}{}%
+\contentsline {section}{\numberline {14}References}{28}{}%
+\contentsline {section}{\numberline {15}Annexure A\\Laboratory Assignments on Project Analysis of Algorithmic Design}{29}{}%
+\contentsline {subsection}{\numberline {15.1}Introduction}{30}{}%
+\contentsline {subsection}{\numberline {15.2}Objective}{30}{}%
+\contentsline {subsection}{\numberline {15.3}Architectural Design}{30}{}%
+\contentsline {section}{\numberline {16}Annexure B\\Laboratory Assignments on Project Quality and Reliability Testing of Project Design}{31}{}%
+\contentsline {section}{\numberline {17}Annexure C\\Project Planner}{32}{}%
+\contentsline {section}{\numberline {18}Annexure D\\Plagarism Report}{33}{}%
+\contentsline {section}{\numberline {19}Annexure E\\Term II - Project Laboratory Assignments}{34}{}%
+\contentsline {section}{\numberline {20}Annexure F\\Information of Project Froup Members}{35}{}%
