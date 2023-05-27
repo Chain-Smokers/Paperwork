@@ -1,19 +1,21 @@
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Block Compression}}{15}{figure.0.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Blockchain based e-Voting Architecture}}{19}{figure.0.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Security Requirements for Electronic Voting System}}{21}{figure.0.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Core Components of Blockchain Architecture}}{23}{figure.0.4.4}%
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Agile Methodology}}{29}{figure.0.6.1}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Task Network}}{32}{figure.0.6.2}%
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Use Case Diagram}}{36}{figure.0.7.1}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Activity Diagram}}{38}{figure.0.7.2}%
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Architecture Diagram}}{42}{figure.0.8.1}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Component Diagram}}{43}{figure.0.8.2}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Class Diagram}}{44}{figure.0.8.3}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces SequenceDiagram}}{45}{figure.0.8.4}%
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Flow of the system}}{53}{figure.0.9.1}%
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Ethstats}}{60}{figure.0.11.1}%
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Login}}{60}{figure.0.11.2}%
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Before selecting candidate}}{61}{figure.0.11.3}%
-\contentsline {figure}{\numberline {11.4}{\ignorespaces After selecting candidate}}{61}{figure.0.11.4}%
-\contentsline {figure}{\numberline {11.5}{\ignorespaces After casting vote}}{62}{figure.0.11.5}%
-\contentsline {figure}{\numberline {11.6}{\ignorespaces Admin Dashboard}}{62}{figure.0.11.6}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Block Compression}}{16}{figure.0.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Blockchain based e-Voting Architecture}}{20}{figure.0.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Security Requirements for Electronic Voting System}}{23}{figure.0.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Core Components of Blockchain Architecture}}{24}{figure.0.4.4}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Agile Methodology}}{31}{figure.0.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Task Network}}{34}{figure.0.6.2}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Use Case Diagram}}{38}{figure.0.7.1}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Data Flow Diagram}}{39}{figure.0.7.2}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Activity Diagram}}{40}{figure.0.7.3}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Architecture Diagram}}{44}{figure.0.8.1}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Component Diagram}}{45}{figure.0.8.2}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Class Diagram}}{46}{figure.0.8.3}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces SequenceDiagram}}{47}{figure.0.8.4}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Flow of the system}}{56}{figure.0.9.1}%
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Ethstats}}{63}{figure.0.11.1}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Login}}{63}{figure.0.11.2}%
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Before selecting candidate}}{64}{figure.0.11.3}%
+\contentsline {figure}{\numberline {11.4}{\ignorespaces After selecting candidate}}{64}{figure.0.11.4}%
+\contentsline {figure}{\numberline {11.5}{\ignorespaces After casting vote}}{65}{figure.0.11.5}%
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Admin Dashboard}}{65}{figure.0.11.6}%
+\contentsline {figure}{\numberline {15.1}{\ignorespaces Blockchain based e-Voting Architecture}}{76}{figure.0.15.1}%

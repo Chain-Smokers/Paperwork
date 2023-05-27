@@ -1,5 +1,5 @@
 \documentclass[oneside, 12pt]{book}
-\usepackage[a4paper, total={6in, 8in}, margin=1in, tmargin=1.35in, bmargin=1.25in,headsep=1in, footskip=1in]{geometry}
+\usepackage[a4paper, total={6in, 8in}, margin=1in, lmargin=2in, tmargin=1.35in, bmargin=1.25in,headsep=1in, footskip=1in]{geometry}
 \usepackage{graphicx}
 \usepackage{multirow}
 \usepackage{float}
@@ -12,6 +12,10 @@
 \usepackage{pgfpages}
 \usepackage{enumerate}
 \usepackage{hyperref}
+\usepackage{pdfpages}
+\usepackage[none]{hyphenat}
+\usepackage{amsfonts}
+\usepackage{indentfirst}
 
 \hypersetup{
     colorlinks,
@@ -41,11 +45,11 @@
 \author{
   Arvind Sudarshan,
   \and
-  Chatane Shree,
+  Chatane Shree Atul,
   \and
-  Eksambekar Yash,
+  Eksambekar Yash Sagar,
   \and
-  Gadkari Gaurav
+  Gadkari Gaurav Sudhir
 }
 
 \renewcommand\footrule{\begin{minipage}{1\textwidth}
@@ -87,7 +91,7 @@
 	\frontmatter
 
 	\begin{titlepage}
-		\newgeometry{top=0.5in}
+		\newgeometry{left=2in,top=0.5in}
 		\centering
 		\begin{figure}[H]
 			\centering
@@ -138,12 +142,12 @@
 				GADKARI GAURAV SUDHIR & SEAT NO: B190214244
 			\end{tabular}
 		\end{table}}
-		is a bonafide work carried out by them under the supervision of Prof. Snehal S. Kolte and it is approved for the partial fulfillment of the requirement of Savitribai Phule Pune University Pune for the award of the degree of Bachelor of Engineering (Computer Engineering). This project work has not been earlier submitted to any other Institute or University for the award of any degree or diploma.\break
+		is a bonafide work carried out by them under the supervision of Prof. Snehal S. Kolte and it is approved for the partial fulfillment of the requirement of Savitribai Phule Pune University Pune for the award of the degree of Bachelor of Engineering (Computer Engineering). This project work has not been earlier submitted to any other Institute or University for the award of any degree or diploma.\\\\\\\\
 		\begin{table}[H]
 			\centering
 			\begin{tabular*}{\textwidth}{c@{\extracolsep{\fill}}cc}
 				Prof. Snehal S. Kolte & Dr. S. V. Athawale         & Prof. V. V. Navale  \\
-				Project Guide         & H.O.D. Computer Department & Project Coordinator
+				Project Guide         & H.O.D. Computer Department & Project Coordinator  \\\\\\\\
 			\end{tabular*}
 		\end{table}
 		{\centering Dr. D.S. Bormane
@@ -185,20 +189,23 @@
 	\end{titlepage}
 
 	\chapter*{Acknowledgement}
-		We would like to extend my sincere gratitude and thanks to my guide Prof. Snehal S. Kolte, for her invaluable guidance and for giving us useful inputs and encouragement time and again, which inspired us to work harder. Due to her forethought, appreciation of the work involved and continuous imparting of useful tips, this report has been successfully completed.\break
-		\\We are extremely grateful to Dr. S V Athawale, Head of the Department of Computer Engineering, for his encouragement during the course of the project work.\break
-		\\We also extend our heartfelt gratitude to the staff of the Computer Engineering Department for their cooperation and support.\break
-		\\We also take this opportunity to thank all our classmates, friends and all those who have directly or indirectly provided their overwhelming support during our project work and the development of this report.\break\break\break\break\break\break\break\break
+		We would like to extend our sincere gratitude and thanks to our guide \textbf{Prof. Snehal S. Kolte}, for her invaluable guidance and for giving us useful inputs and encouragement time and again, which inspired us to work harder. Due to her forethought, appreciation of the work involved and continuous imparting of useful tips, this report has been successfully completed.
+		\\\\We are extremely grateful to \textbf{Dr. S V Athawale}, Head of the Department of Computer Engineering, for his encouragement during the course of the project work.
+		\\\\We also extend our heartfelt gratitude to the staff of the Computer Engineering Department for their cooperation and support.
+		\\\\We also take this opportunity to thank all our classmates, friends and all those who have directly or indirectly provided their overwhelming support during our project work and the development of this report.\break\break\break\break\break\break\break\break
 
 		\begin{flushright}
-		Arvind Sudarshan\break
-		Chatane Shree\break
-		Eksambekar Yash\break
-		Gadkari Gaurav
+		Arvind Sudarshan\\
+		Chatane Shree Atul\\
+		Eksambekar Yash Sagar\\
+		Gadkari Gaurav Sudhir
 		\end{flushright}
 		
 	\chapter*{Abstract}
 		Voting in democratic country is a fundamental right granted to every eligible individual by the constitution. Current e-Voting system used isn’t transparent and can be improved in a few aspects. All voting data from Electronic Voting Machines (EVMs) are stored on a central server. This creates a single point of failure which can be exploited and tampered with easily. Such flaws cause mistrust in the electoral process. Blockchain is a shared  immutable ledger that facilitates the process of recording transactions in a network. It is an emerging technology whose full potential is yet to be realized. Blockchain became popular in 2009 when bitcoin was introduced and used as an alternative to tangible currency and has evolved since. It is a reliable system that can be used in various critical industrial applications. Blockchain has potential to improve the voting system to contest transparent and fair voting. Using this modern technology, a voting system can be implemented which provides transparency leading to fairness in the system. Furthermore, this will overcome the current system flaw of having a single point of failure caused by storing data in a centralized server. In addition to this, election results can be declared faster compared to the current system which might take a few days. The proposed system in this paper shows implementation of voting using blockchain technology.\\\\
+	
+	\newpage	
+	\includepdf[]{./Resources/sponsorship-letter.pdf}
 	\tableofcontents
 	\listoffigures
 	\listoftables
@@ -408,7 +415,7 @@
 					\textbf{Abstract:} Nowadays the use of the Internet is growing; E-voting system has been used by different countries because it reduces the cost and the time which used to consumed by using traditional voting. When the voter wants to access the E-voting system through the web application, there are requirements such as a web browser and a server. The voter uses the web browser to reach to a centralized database. The use of a centralized database for the voting system has some security issues such as Data modification through the third party in the network due to the use of the central database system as well as the result of the voting is not shown in real-time. However, this paper aims to provide an E-voting system with high security by using blockchain. Blockchain provides a decentralized model that makes the network Reliable, safe, flexible, and able to support real-time services.\\
 					\textbf{Inference:}
 					\\This Paper Explains the Difference between Ballot paper voting and Blockchain based decentralised casting For better integrity of the voting system.
-					\\Here in Decentralised Blockchain System data like the name of voter or votes is saved on a decentralised ledger. This data neither be accessed nor be changed by any third party authority. Currency ballot paper is a widely used voting system worldwide. But this doesn't guarantee the correctness of the result Due to availability of data at a single resource. This problem is faced by a centralised voting system and is solved by Blockchain based voting systems. Here in Blockchain Technology the data is not stored on a central location but is allotted in different locations on different servers. The data which is distributed across each device connected to the blockchain using a peer-to-peer system.
+					\\Here in Decentralised Blockchain System data like the name of voter or votes is saved on a decentralised ledger. This data neither be accessed nor be changed by any third party authority. Currency ballot paper is a widely used voting system worldwide. But this does not guarantee the correctness of the result Due to availability of data at a single resource. This problem is faced by a centralised voting system and is solved by Blockchain based voting systems. Here in Blockchain Technology the data is not stored on a central location but is allotted in different locations on different servers. The data which is distributed across each device connected to the blockchain using a peer-to-peer system.
 					\\In the Decentralised E-voting system candidate registration is done before the voting process starts and then voters identity is verified before the creating account.In this system. The authorised person authenticates the voter and then blockchain ensures the double voting is not allowed.
 				\item
 					\textbf{Paper Name:} BlockVOTE : An Architecture of a Blockchain-based Electronic Voting System \cite{angsuchotmetee2019blockvote}\\
@@ -515,7 +522,6 @@
 				\item The application must also ensure that the identities and personal information of the users are safeguarded.
 				\item The systems must be usable by all users, regardless of their technological abilities or accessibility requirements.
 			\end{enumerate}
-		\subsection{Methodologies of Problem Solving and Efficiency Issues}
 		\subsection{Expected Outcome}
 			\begin{enumerate}
 				\item Promote transparency in the electoral process.
@@ -562,7 +568,7 @@
 					\item Product Risk: Risks associated with a software product or programme that may develop as a result of its inability to function as users want it to. These risks include any kind of unforeseen or unpredictable incident or activity that could happen and harm a project's progress. 
 					\item Some of the classic strategies include:
 					\begin{enumerate}
-						\item Avoid it: Sometimes a plan can be developed to entirely prevent a risk. It might be conceivable to use a different supplier, for instance, if there's a chance that a certain one will supply a necessary item too late to meet your deadline.
+						\item Avoid it: Sometimes a plan can be developed to entirely prevent a risk. It might be conceivable to use a different supplier, for instance, if there is a chance that a certain one will supply a necessary item too late to meet your deadline.
 						\item Accept it: It might not be worthwhile to handle the risk at all if the impact and probability are low. 
 						\item Reduce it: Establishing contingency plans and funding, adding team members with the knowledge to take over a crucial task in the event that others leave, and cultivating a favorable relationship with persons outside the team whose cooperation is crucial for success are some approaches to decrease risks.
 						\item Transfer it: In some cases, you can delegate control of a particular risk to a supplier, an independent consultant, or even a stakeholder.
@@ -666,14 +672,14 @@
 					\begin{itemize}
 						\item\textbf{Operating System :} Portable. Latest Operating System that supports all types of installation and development Environment.
 						\item\textbf{IDE :} Remix IDE for Solidity Smart Contracts. It is a robust toolbox that users of any skill level can utilize for the whole process of contract development and deployment. 
-						\item\textbf{Languages :} Solidity, JavaScript, HTML, CSS,Python
+						\item\textbf{Languages :} Solidity, JavaScript, HTML, CSS, Python
 					\end{itemize}
 		\subsection{Usage Scenarios}
 			\subsubsection{User profiles}
 				\begin{enumerate}
 					\item Voter : The voter has limited access to the system. His function is to register. Then to register. There will be a provision to give him a coin. The coin will be consumed when the voter casts a vote. 
 					\item Admin : The admin is mostly the moderator of the system. He has access to the candidate data. The voter data will be anonymous. But candidate data will be accessible. He can add different parties in the voting system.
-					\item Candidate : Candidates basically define a party. They are basically the on which voters vote. Candidates are registered by admins. They can only see the results in their dashboard . They can’t cast votes.
+					\item Candidate : Candidates basically define a party. They are basically the on which voters vote. Candidates are registered by admins. They can only see the results in their dashboard . They cannot cast votes.
 				\end{enumerate}
 			\subsubsection{Use Case View}
 				\begin{figure}[H]
@@ -690,6 +696,12 @@
 		\subsection{Functional Model and Description}
 			A description of each major software function, along with data flow (structured analysis) or class hierarchy (Analysis Class diagram with class description for object-oriented system) is presented.
 			\subsubsection{Data Flow Diagram}
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=\linewidth]{./Resources/data-flow.png}
+				    \caption{Data Flow Diagram}
+				    \label{fig:data-flow}
+				\end{figure}
 			\subsubsection{Activity Diagram}
 				\begin{figure}[H]
 					\centering
@@ -713,6 +725,7 @@
 						\end{enumerate}
 				\end{itemize}
 			\subsubsection{Design Constraints}
+				Any design constraints that will impact the subsystem are noted.
 			\subsubsection{Software Interface Description}
 				The first screen that appears as the module is started is the Login Page which asks for user credentials to log in to the system. 
 				\\\\After the user is logged in, he will be greeted with another page, where he would have a choice to vote for a candidate from multiple choices.
@@ -726,7 +739,7 @@
 			\\\\Decentralized voting systems can provide increased transparency, as they often rely on blockchain technology or other distributed ledger systems. Every vote cast can be recorded on the blockchain, making the process transparent and verifiable by anyone. This transparency helps build trust in the integrity of the voting system.  Centralized voting systems are vulnerable to various security risks, such as hacking, tampering, or manipulation of results. In contrast, decentralized voting systems leverage the security features of blockchain technology, which makes it extremely difficult for any single entity or malicious actor to tamper with the results. Each vote is recorded in a transparent and immutable manner, ensuring the integrity of the voting process.
 			\\\\In centralized voting systems, there is a risk of censorship by the central authority. Decentralized voting systems aim to mitigate these risks by empowering individual voters to directly participate and control their votes. By removing the need for intermediaries, decentralized systems provide a higher level of autonomy and reduce the potential for manipulation or censorship.
 		\subsection{Architectural Design}
-			The architecture of a system describes its major components, their relationships(structures), and how they interact with each other. Software architecture and design includes several contributory factors such as Business strategy, quality attributes, human dynamics, design and IT environment.
+			The architecture of a system describes its major components, their relationships (structures), and how they interact with each other. Software architecture and design includes several contributory factors such as Business strategy, quality attributes, human dynamics, design and IT environment.
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=\linewidth]{./Resources/architecture.png}
@@ -765,7 +778,6 @@
 	\newpage
 	\section{Project Implementation}
 	\newpage
-		\subsection{Introduction}
 		\subsection{Module Description}
 			\begin{itemize}
 				\item\textbf{Private Network}
@@ -877,28 +889,28 @@
 			\\\\\colorbox{gray!20}{%
 		        \begin{minipage}{\linewidth}%
 		            \vspace*{2pt}
-		            	ElectoralContract \{
-    \\struct Voter \{
-        \\string voterName;
-        \\bool hasVoted;
-        \\bool isLoggedIn;
-        \\string voterPassword;
-        \\address nodeAddress;
-        \\uint timestamp;
-    \\\}
-    \\struct Candidate \{
-        \\string candidateName;
-        \\uint256 voteCount;
-    \\\}
-    \\// func addCandidate : adds candidate for voters to vote
-    \\// func addVoter : adds voter
-    \\// func login : login functionality for voter
-    \\// func logout : logout functionality for voter
-    \\// func getResult : gets result of elections
-    \\// func getCandidates : gets list of candidate names
-    \\// func getVotersDetailed : gets all voters information
-    \\// func vote : cast vote to candidate functionality
-\\\};
+					ElectoralContract \{
+						\\\\\-\hspace{1cm}struct Voter \{
+							\\\-\hspace{2cm}string voterName;
+							\\\-\hspace{2cm}bool hasVoted;
+							\\\-\hspace{2cm}bool isLoggedIn;
+							\\\-\hspace{2cm}string voterPassword;
+							\\\-\hspace{2cm}address nodeAddress;
+							\\\-\hspace{2cm}uint timestamp;
+						\\\-\hspace{1cm}\}
+						\\\\\-\hspace{1cm}struct Candidate \{
+							\\\-\hspace{2cm}string candidateName;
+							\\\-\hspace{2cm}uint256 voteCount;
+						\\\-\hspace{1cm}\}
+						\\\\\-\hspace{1cm}// func addCandidate : adds candidate for voters to vote
+						\\\-\hspace{1cm}// func addVoter : adds voter
+						\\\-\hspace{1cm}// func login : login functionality for voter
+						\\\-\hspace{1cm}// func logout : logout functionality for voter
+						\\\-\hspace{1cm}// func getResult : gets result of elections
+						\\\-\hspace{1cm}// func getCandidates : gets list of candidate names
+						\\\-\hspace{1cm}// func getVotersDetailed : gets all voters information
+						\\\-\hspace{1cm}// func vote : cast vote to candidate functionality
+					\\\\\};
 		            \vspace*{2pt}
 		        \end{minipage}%
 		    }
@@ -947,7 +959,7 @@
 		    }
 		    \\\\\\Along with these components, a frontend client is made for a citizen/voter to interact and cast their votes. Dashboards are also deployed to monitor the network and the data flowing through it. The system’s performance is tested by generating synthetic data which is passed to the system and the time taken for it to process the data and store it in blockchain. The number of nodes in the system are scaled in range from 1 to 50 while ranging the voters from 10 to 250.
 		\subsection{Verification and Validation}
-			Following table shows time taken in seconds by the system to insert data to the private blockchain network and generate results without artificial delay included.
+			Table \ref{tab:result-table} shows time taken in seconds by the system to insert data to the private blockchain network and generate results without artificial delay included.
 			\begin{table}[H]
 				\resizebox{\textwidth}{!}{%
 					\begin{tabular}{|cr|rrrrrrrrrr|}
@@ -1077,17 +1089,190 @@
 	\section{Annexure A\\Laboratory Assignments on Project Analysis of Algorithmic Design}
 	\newpage
 		\subsection{Introduction}
+			Blockchain technology can be used in the E-voting system to conduct a fair election and reduce injustice. The physical voting systems have many flaws in it as well as the digital voting systems are not perfect enough to be implemented on a large scale. This paper presents an overview of Blockchain based voting systems. The proposed platform will provide a framework that can be implemented to conduct voting activity digitally through blockchain. Our proposed system will use a flexible blockchain with consensus algorithms. The Chain security algorithm used in makes voting transactions more secure and integrated.
+			\\\textbf{Blockchain:} Blockchain is like a distributed ledger technology consisting of records of transactions called as blocks that are linked together using mathematical cryptography. Blockchain technology is popular because of its distributed nature which makes it immutable and practically impossible to hack.
+			\\\textbf{Distributed Ledger:} Ledger is a records collection containing information about transactions. Distributed ledger is a data structure capable of storing said transactions which is distributed across different computers on the network. DLT (Distributed Ledger Technology) is technology that distributes transaction records to all the users participating in the network. Blockchain is a type of Distributed Ledger Technology(DLT). Hence the data is shared among all its users providing transparency and preventing corruption.
+			\\\textbf{Decentralized Application(dApp):} dApp is an application built to run on decentralized computing, blockchain or any other distributed ledger system. It makes use of smart contracts for its functioning.
+			\\\textbf{Smart Contract:} Smart contracts are computer programs that automatically execute or control actions according to the terms of a contract or an agreement. It is used to enforce rules in blockchain transactions. Smart contracts are considered fundamental building blocks for cryptocurrencies and NFTs.
+			\\\textbf{Consensus:} Consensus ensures that all the different users participating in blockchain come to a mutual agreement regarding the state of blockchain. There are numerous consensus mechanisms that are used by different blockchain applications.
+			\\\textbf{Cryptography:} Cryptography is based on mathematical theory and computer science. Cryptography’s importance is to provide methods to secure and protect data and communications using encryption related techniques.
+			\\\textbf{Ethereum:} Ethereum is an open-source blockchain which provides smart contract functionality using solidity programming language.
+		\subsection{Motivation}
+			India is said to have the largest democracy. For the electoral voting system India is using modern “Electronic Voting Machines” which are responsible for taking user input and storing the votes entered by the end user. Later these votes are carried to a central location where they are counted and the result is declared. Though, there is a possibility that these votes data can be tampered with. Having a single central server to store data creates a single point of failure for the entire system. These issues cause mistrust regarding the current system. In the traditional ballot paper system, vote authenticity was questionable and had its separate issues for which it was replaced with modern Electronic Voting Machines. Blockchain is based on Distributed Ledger Technology(DLT). In DLT, replicas of the same data are made on different nodes in the network due to which there is no single point of failure. Moreover, due to consensus algorithms implemented in blockchain, all nodes decide and agree upon whether a block is valid and must be added to the network or not.
+			\\\\Using Blockchain Technology will overcome issues in the present electronic voting system. It will also contribute to increasing the overall trust in the system and benefit democracy. Blockchain will provide a secure system for vote acceptance, storage and provide faster election results.
 		\subsection{Objective}
+			To design a decentralized e-voting system that,
+			\begin{enumerate}
+				\item Reduces human interaction in the process of voting and elections in general. 
+				\item Does not depend on a trusted third party for controlling the collected data, whilst still staying immune to attacks and guaranteeing user privacy.
+				\item Provides transparency, ensuring security and does not jeopardize voter privacy.
+			\end{enumerate}
 		\subsection{Architectural Design}
+		\begin{figure}[H]
+			\includegraphics[width=\linewidth]{./Resources/architecture.png}
+		    \caption{Blockchain based e-Voting Architecture}
+		    \label{fig:annexure-architecture}
+		\end{figure}
 	\newpage
-	\section{Annexure B\\Laboratory Assignments on Project Quality and Reliability Testing of Project Design}
+	\section{Annexure B\\Project Planner}
 	\newpage
-	\section{Annexure C\\Project Planner}
+		\begin{table}[]
+			\centering
+			\begin{tabular}{|c|l|c|c|}
+				\hline
+				SR.NO. & TASK NAME                                                                          & DURATION & COMPLETION \\ \hline
+				1      & Topic searching                                                                    & 15 days  & C          \\ \hline
+				2      & Topic selection                                                                    & 10 days  & C          \\ \hline
+				3      & Project Confirmation                                                               & 5 days   & C          \\ \hline
+				4      & Literature Survey                                                                  & 15 days  & C          \\ \hline
+				5      & Requirement Analysis                                                               & 15 day   & C          \\ \hline
+				6      & Survey paper                                                                       & 10 days  & C          \\ \hline
+				7      & Network Creation                                                                   & 10 days  & C          \\ \hline
+				8      & \begin{tabular}[c]{@{}l@{}}Creation of Blockchain and\\ Genesis Block\end{tabular} & 10 days  & C          \\ \hline
+				9      & \begin{tabular}[c]{@{}l@{}}Implementation of Solidity\\ Contracts\end{tabular}     & 2 weeks  & C          \\ \hline
+				10     & \begin{tabular}[c]{@{}l@{}}Implementation of Front End\\ using React\end{tabular}  & 3 weeks  & C          \\ \hline
+				11     & \begin{tabular}[c]{@{}l@{}}Optimization and Performance\\ Evaluation\end{tabular}  & 3 weeks  & C          \\ \hline
+				12     & Code Integration and testing                                                       & 2 weeks  & C          \\ \hline
+				13     & Implementation Paper Publishing                                                    & 2 weeks  & C          \\ \hline
+				14     & Documentation                                                                      & 10 days  & C          \\ \hline
+			\end{tabular}
+			\caption{System Implementation Plan}
+			\label{tab:system-implementation-plan}
+		\end{table}
 	\newpage
-	\section{Annexure D\\Plagarism Report}
+	\section{Annexure C\\Plagiarism Report}
 	\newpage
-	\section{Annexure E\\Term II - Project Laboratory Assignments}
+	\includepdf[pages=-]{./Resources/plagiarism-report.pdf}
 	\newpage
-	\section{Annexure F\\Information of Project Froup Members}
+	\section{Annexure D\\Term II - Project Laboratory Assignments}
 	\newpage
+	\subsection{Coverage report}
+	\colorbox{gray!20}{%
+		\begin{minipage}{\linewidth}%
+			\vspace*{2pt}
+			\textbf{Version}
+			\\\textbf{=======}
+			\\$>$ \textbf{solidity-coverage:} v0.8.2
+			\\\\\textbf{Instrumenting for coverage...}
+			\\\textbf{=============================}
+			\\\\$>$ ElectoralContract.sol
+			\\\\\textbf{Compilation:}
+			\\\textbf{============}
+			\\\\Compiled 1 Solidity file successfully
+			\\\\\textbf{Network Info}
+			\\\textbf{============}
+			\\$>$ \textbf{HardhatEVM:} v2.14.0
+			\\$>$ \textbf{network:}    hardhat
+			\\\\\\ElectoralContract
+			\begin{itemize}
+				\item[\checkmark] Should add candidates and voters on deployment (279ms)
+				\item[\checkmark] Should add candidate (85ms)
+				\item[\checkmark] Should add voter
+				\item[\checkmark] Should login and logout (43ms)
+				\item[\checkmark] Should cast vote (88ms)
+			\end{itemize}
+			5 passing (534ms)
+			\begin{table}[H]
+				\resizebox{0.97\textwidth}{!}{%
+					\begin{tabular}{|l|r|r|r|r|l|}
+						\hline
+						File                                                                           & \multicolumn{1}{l|}{\% Stmts}                     & \multicolumn{1}{l|}{\% Branch}                  & \multicolumn{1}{l|}{\% Funcs}                     & \multicolumn{1}{l|}{\% Lines}                     & Uncovered Lines \\ \hline
+						\begin{tabular}[c]{@{}l@{}}contracts/\\ElectoralContract.sol\end{tabular} & \begin{tabular}[c]{@{}r@{}}100\\ 100\end{tabular} & \begin{tabular}[c]{@{}r@{}}50\\ 50\end{tabular} & \begin{tabular}[c]{@{}r@{}}100\\ 100\end{tabular} & \begin{tabular}[c]{@{}r@{}}100\\ 100\end{tabular} &                 \\ \hline
+						All files                                                                      & 100                                               & 50                                              & 100                                               & 100                                               &                 \\ \hline
+					\end{tabular}%
+				}
+			\end{table}
+			\vspace*{2pt}
+		\end{minipage}%
+	}
+	\subsection{Test report}
+	\colorbox{gray!20}{%
+		\begin{minipage}{\linewidth}%
+			\vspace*{2pt}
+			Compiled 1 Solidity file successfully
+			\\\\ ElectoralContract
+			\begin{itemize}
+				\item[\checkmark] Should add candidates and voters on deployment
+				\item[\checkmark] Should add candidate
+				\item[\checkmark] Should add voter
+				\item[\checkmark] Should login and logout
+				\item[\checkmark] Should cast vote
+			\end{itemize}
+			\begin{table}[H]
+				\resizebox{0.97\textwidth}{!}{%
+					\begin{tabular}{|ll|lllll|}
+						\hline
+						\multicolumn{2}{|l|}{Solc version: 0.8.19}                  & \multicolumn{2}{l|}{Optimizer enabled: false}               & \multicolumn{1}{l|}{Runs: 200} & \multicolumn{2}{l|}{Block limit: 30000000 gas}              \\ \hline
+						\multicolumn{2}{|l|}{Methods}                               & \multicolumn{5}{l|}{}                                                                                                                                      \\ \hline
+						\multicolumn{1}{|l|}{\textbf{Contract}} & \textbf{Contract} & \multicolumn{1}{l|}{Min}     & \multicolumn{1}{l|}{Max}     & \multicolumn{1}{l|}{Avg}       & \multicolumn{1}{l|}{\textbf{\# calls}} & \textbf{usd (avg)} \\ \hline
+						\multicolumn{1}{|l|}{ElectoralContract} & addCandidate      & \multicolumn{1}{l|}{-}       & \multicolumn{1}{l|}{-}       & \multicolumn{1}{l|}{114760}    & \multicolumn{1}{l|}{2}                 & -                  \\ \hline
+						\multicolumn{1}{|l|}{ElectoralContract} & addVoter          & \multicolumn{1}{l|}{-}       & \multicolumn{1}{l|}{-}       & \multicolumn{1}{l|}{143693}    & \multicolumn{1}{l|}{3}                 & -                  \\ \hline
+						\multicolumn{1}{|l|}{ElectoralContract} & login             & \multicolumn{1}{l|}{-}       & \multicolumn{1}{l|}{-}       & \multicolumn{1}{l|}{51926}     & \multicolumn{1}{l|}{2}                 & -                  \\ \hline
+						\multicolumn{1}{|l|}{ElectoralContract} & logout            & \multicolumn{1}{l|}{-}       & \multicolumn{1}{l|}{-}       & \multicolumn{1}{l|}{24557}     & \multicolumn{1}{l|}{1}                 & -                  \\ \hline
+						\multicolumn{1}{|l|}{ElectoralContract} & vote              & \multicolumn{1}{l|}{-}       & \multicolumn{1}{l|}{-}       & \multicolumn{1}{l|}{80429}     & \multicolumn{1}{l|}{1}                 & -                  \\ \hline
+						\multicolumn{2}{|l|}{Deployments}                           & \multicolumn{3}{l|}{}                                                                        & \multicolumn{1}{l|}{\% of limit}       &                    \\ \hline
+						\multicolumn{2}{|l|}{ElectoralContract}                     & \multicolumn{1}{l|}{1578809} & \multicolumn{1}{l|}{1924953} & \multicolumn{1}{l|}{1751881}   & \multicolumn{1}{l|}{5.8 \%}            & -                  \\ \hline
+					\end{tabular}%
+				}
+			\end{table}
+			5 passing (1s)
+			\vspace*{2pt}
+		\end{minipage}%
+	}
+	\newpage
+	\section{Annexure E\\Publications}
+	\newpage
+		\subsection{Survey Paper}
+			\subsubsection{Title}
+				Survey on Blockchain Technology and its application in Electoral Voting System
+			\subsubsection{Journal}
+				International Journal for Research in Applied Science \& Engineering Technology (IJRASET)
+			\subsubsection{Volume}
+				10
+			\subsubsection{Issue}
+				XI
+			\subsubsection{Month of Publication}
+				November 2022
+			\subsubsection{Digital Object Identifier (DOI)}
+				\href{https://doi.org/10.22214/ijraset.2022.47752}{https://doi.org/10.22214/ijraset.2022.47752}
+			\includepdf[pages=-,nup=1x2]{./Resources/IJRASET-certificates.pdf}
+	\newpage
+	\section{Annexure F\\Competitions}
+	\newpage
+		\subsection{Project Competition}
+			\subsubsection{Event}
+				Project Competition 2K23\\5th May, 2023
+			\subsubsection{Organizer}
+				Pune Vidhyarthi Griha’s College of Engineering and Technology and G. K. Pate (Wani) Institute of Management
+			\includepdf[pages=-,nup=1x2,delta=0in 0.5in,offset=0in 0.25in,scale=0.9]{./Resources/PVG-certificates.pdf}
+	\newpage
+	\section{Annexure G\\Information of Project Froup Members}
+	\newpage
+	\begin{table}[H]
+		\begin{tabular*}{\textwidth}{lll@{\extracolsep{\fill}}l}
+			Name        & : & Arvind Sudarshan            & \multirow{6}{*}{\fbox{\includegraphics[height=1.5in]{./Resources/arvind.jpg}}} \\\\
+			DOB         & : & August 19, 2001             &                   \\\\
+			Gender      & : & Male                        &                   \\\\
+			Address     & : & Pune, Maharashtra           &                   \\\\
+			Email       & : & arvindsudarshan18@gmail.com &                   \\\\\\\\
+
+			Name        & : & Chatane Shree Atul 		  & \multirow{6}{*}{\fbox{\includegraphics[height=1.5in]{./Resources/shree.jpg}}} \\\\
+			DOB         & : & October 3, 2001			  &                   \\\\
+			Gender      & : & Male                 		  &                   \\\\
+			Address     & : & Pune, Maharashtra    		  &                   \\\\
+			Email       & : & shreeameyc@gmail.com 		  &                   \\\\\\\\
+
+			Name        & : & Eksambekar Yash Sagar    	  & \multirow{6}{*}{\fbox{\includegraphics[height=1.5in]{./Resources/yash.jpg}}} \\\\
+			DOB         & : & July 16, 2001            	  &                   \\\\
+			Gender      & : & Male                     	  &                   \\\\
+			Address     & : & Pune, Maharashtra        	  &                   \\\\
+			Email       & : & yasheksambekar@gmail.com 	  &                   \\\\\\\\
+
+			Name        & : & Gadkari Gaurav Sudhir        & \multirow{6}{*}{\fbox{\includegraphics[height=1.5in]{./Resources/gaurav.jpg}}} \\\\
+			DOB         & : & August 19, 2001              &                   \\\\
+			Gender      & : & Male                         &                   \\\\
+			Address     & : & Pune, Maharashtra            &                   \\\\
+			Email       & : & gaurav.gadkari1908@gmail.com &                   \\\\
+		\end{tabular*}
+	\end{table}
 \end{document}
