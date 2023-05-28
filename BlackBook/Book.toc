@@ -93,17 +93,17 @@
 \contentsline {subsection}{\numberline {13.1}Conclusion}{69}{subsection.0.13.1}%
 \contentsline {subsection}{\numberline {13.2}Future Scope}{69}{subsection.0.13.2}%
 \contentsline {section}{\numberline {14}References}{70}{section.0.14}%
-\contentsline {section}{\numberline {15}Annexure A\\Laboratory Assignments on Project Analysis of Algorithmic Design}{73}{section.0.15}%
+\contentsline {section}{\numberline {15}Annexure A:\\Laboratory Assignments on Project Analysis of Algorithmic Design}{73}{section.0.15}%
 \contentsline {subsection}{\numberline {15.1}Introduction}{74}{subsection.0.15.1}%
 \contentsline {subsection}{\numberline {15.2}Motivation}{74}{subsection.0.15.2}%
 \contentsline {subsection}{\numberline {15.3}Objective}{75}{subsection.0.15.3}%
 \contentsline {subsection}{\numberline {15.4}Architectural Design}{76}{subsection.0.15.4}%
-\contentsline {section}{\numberline {16}Annexure B\\Project Planner}{77}{section.0.16}%
-\contentsline {section}{\numberline {17}Annexure C\\Plagiarism Report}{79}{section.0.17}%
-\contentsline {section}{\numberline {18}Annexure D\\Term II - Project Laboratory Assignments}{82}{section.0.18}%
+\contentsline {section}{\numberline {16}Annexure B:\\Project Planner}{77}{section.0.16}%
+\contentsline {section}{\numberline {17}Annexure C:\\Plagiarism Report}{79}{section.0.17}%
+\contentsline {section}{\numberline {18}Annexure D:\\Term II - Project Laboratory Assignments}{82}{section.0.18}%
 \contentsline {subsection}{\numberline {18.1}Coverage report}{83}{subsection.0.18.1}%
 \contentsline {subsection}{\numberline {18.2}Test report}{84}{subsection.0.18.2}%
-\contentsline {section}{\numberline {19}Annexure E\\Publications}{85}{section.0.19}%
+\contentsline {section}{\numberline {19}Annexure E:\\Publications}{85}{section.0.19}%
 \contentsline {subsection}{\numberline {19.1}Survey Paper}{86}{subsection.0.19.1}%
 \contentsline {subsubsection}{\numberline {19.1.1}Title}{86}{subsubsection.0.19.1.1}%
 \contentsline {subsubsection}{\numberline {19.1.2}Journal}{86}{subsubsection.0.19.1.2}%
@@ -111,8 +111,8 @@
 \contentsline {subsubsection}{\numberline {19.1.4}Issue}{86}{subsubsection.0.19.1.4}%
 \contentsline {subsubsection}{\numberline {19.1.5}Month of Publication}{86}{subsubsection.0.19.1.5}%
 \contentsline {subsubsection}{\numberline {19.1.6}Digital Object Identifier (DOI)}{86}{subsubsection.0.19.1.6}%
-\contentsline {section}{\numberline {20}Annexure F\\Competitions}{89}{section.0.20}%
+\contentsline {section}{\numberline {20}Annexure F:\\Competitions}{89}{section.0.20}%
 \contentsline {subsection}{\numberline {20.1}Project Competition}{90}{subsection.0.20.1}%
 \contentsline {subsubsection}{\numberline {20.1.1}Event}{90}{subsubsection.0.20.1.1}%
 \contentsline {subsubsection}{\numberline {20.1.2}Organizer}{90}{subsubsection.0.20.1.2}%
-\contentsline {section}{\numberline {21}Annexure G\\Information of Project Froup Members}{93}{section.0.21}%
+\contentsline {section}{\numberline {21}Annexure G:\\Information of Project Group Members}{93}{section.0.21}%
