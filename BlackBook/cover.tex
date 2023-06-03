@@ -1,0 +1,90 @@
+\documentclass[oneside, 12pt]{book}
+\usepackage[a4paper, total={6in, 8in}, margin=1in, lmargin=2in, tmargin=1.35in, bmargin=1.25in,headsep=1in, footskip=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{indentfirst}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{xcolor, soul}  
+\usepackage{pgf}
+\usepackage{pgfpages}
+\usepackage{enumerate}
+\usepackage{hyperref}
+\usepackage{pdfpages}
+\usepackage{amsfonts}
+\usepackage{indentfirst}
+\renewcommand{\bibname}{References}
+
+\setlength\parindent{0pt}
+
+\title{Black Book}
+\author{
+  Arvind Sudarshan,
+  \and
+  Chatane Shree Atul,
+  \and
+  Eksambekar Yash Sagar,
+  \and
+  Gadkari Gaurav Sudhir
+}
+
+\pgfpagesdeclarelayout{cover}
+{
+  \edef\pgfpageoptionborder{50pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{7.5pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{cover}
+\nofiles
+\begin{document}
+
+\frontmatter
+\begin{titlepage}
+	\newgeometry{margin=0.5in}
+	\centering
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\linewidth]{./Resources/sppu.png}
+	\end{figure}
+	\textbf{SAVITRIBAI PHULE PUNE UNIVERSITY}\break
+	\\\textbf{A PRELIMINARY PROJECT REPORT ON}\break
+	\\{\large\textbf{DECENTRALIZED AND SECURE VOTING SYSTEM USING BLOCKCHAIN TECHNOLOGY}}\break
+	\\SUBMITTED TO THE SAVITRIBAI PHULE PUNE UNIVERSITY, PUNE IN THE PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR THE AWARD OF THE DEGREE\break
+	\\OF\break
+	\\{\large\textbf{BACHELOR OF ENGINEERING\\(COMPUTER ENGINEERING)}}\break
+	\\BY\break
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{lr}
+			ARVIND SUDARSHAN      & SEAT NO: B190214209 \\
+			CHATANE SHREE ATUL    & SEAT NO: B190214228 \\
+			EKSAMBEKAR YASH SAGAR & SEAT NO: B190214241 \\
+			GADKARI GAURAV SUDHIR & SEAT NO: B190214244
+		\end{tabular}
+	\end{table}
+	Under the guidance of\break
+	\\\textbf{Ms. Snehal S. Kolte}\break
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{./Resources/letterhead2.png}
+	\end{figure}
+	No. 1, Kennedy Road, Near RTO Office Sangamvadi, Shivajinagar,\\Pune - 411001\break
+	\\\textbf{\large 2022-23}\\
+	\restoregeometry
+\end{titlepage}
+\end{document}
